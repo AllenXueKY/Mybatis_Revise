@@ -36,10 +36,16 @@
     <select id="findByName" resultType="com.allen.domain.User" parameterType="String">
       select * from user where username like #{name}
       <!--select * from user where username like '%${value}%'-->
-  </select>
+    </select>
 
-<!--获取用户的总记录条数-->
+    <!--获取用户的总记录条数-->
     <select id="findTotal" resultType="int">
         select count(id) from user
+    </select>
+
+    <!--根据queryVo的条件查询用户-->
+    <select id="findUserByVo" resultType="com.allen.domain.User" parameterType="com.allen.domain.QueryVo">
+        select * from user where username like #{user.username}
+        <!--select * from user where username like '%${value}%'-->
     </select>
 </mapper>

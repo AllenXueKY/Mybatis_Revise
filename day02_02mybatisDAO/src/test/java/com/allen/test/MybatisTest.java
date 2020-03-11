@@ -1,7 +1,7 @@
 package com.allen.test;
 
 import com.allen.dao.UserDao;
-import com.allen.domain.QueryVo;
+import com.allen.dao.impl.UserDaoImpl;
 import com.allen.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -21,7 +21,6 @@ import java.util.List;
  */
 public class MybatisTest {
     private InputStream in;
-    private SqlSession sqlSession;
     private UserDao userDao;
 
     @Before
@@ -30,19 +29,14 @@ public class MybatisTest {
         in = Resources.getResourceAsStream("SqlMapConfig.xml");
         //2、获取SqlSessionFactory
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(in);
-        //3、获取SqlSession对象
-        sqlSession = factory.openSession();
-        //4、获取dao的代理对象
-        userDao = sqlSession.getMapper(UserDao.class);
+        //3、使用工厂对象，创建dao对象
+        userDao = new UserDaoImpl(factory);
 
     }
 
     @After
     public void destory() throws IOException {
-        //提交事务
-        sqlSession.commit();
         //6、释放资源
-        sqlSession.close();
         in.close();
     }
 
@@ -51,7 +45,7 @@ public class MybatisTest {
      */
     @Test
     public void testFindAll() {
-                //5、执行查询所有方法
+        //5、执行查询所有方法
         List<User> users = userDao.findAll();
         for (User user : users) {
             System.out.println(user);
@@ -64,8 +58,8 @@ public class MybatisTest {
     @Test
     public void testSave() throws IOException {
         User user = new User();
-        user.setUsername("mybatis last insertid");
-        user.setAddress("陕西省西安市");
+        user.setUsername("dao impl user");
+        user.setAddress("西安市");
         user.setSex("男");
         user.setBirthday(new Date());
         System.out.println("保存操作之前："+user);
@@ -81,7 +75,7 @@ public class MybatisTest {
     public void testUpdate() throws IOException {
         User user = new User();
         user.setId(50);
-        user.setUsername("mybatis Update user");
+        user.setUsername("userDaoImpl Update user");
         user.setAddress("陕西省西安市");
         user.setSex("女");
         user.setBirthday(new Date());
@@ -95,7 +89,7 @@ public class MybatisTest {
     @Test
     public void testDelete() throws IOException {
 
-        userDao.deleteUser(48);
+        userDao.deleteUser(49);
     }
 
     /**
@@ -128,19 +122,4 @@ public class MybatisTest {
         System.out.println(total);
     }
 
-    /**
-     * 测试使用QueryVo作为查询条件
-     */
-    @Test
-    public void testFindByVo() throws IOException {
-        QueryVo vo = new QueryVo();
-        User user = new User();
-        user.setUsername("%王%");
-        vo.setUser(user);
-        List<User> users = userDao.findUserByVo(vo);
-        // List<User> users = userDao.findByName("王");
-        for (User u : users) {
-            System.out.println(u);
-        }
-    }
 }
