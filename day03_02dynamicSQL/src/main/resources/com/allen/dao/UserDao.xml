@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.allen.dao.UserDao">
+    <resultMap id="user" type="com.allen.domain.User"></resultMap>
+    <!--抽取重复的sql语句-->
+    <sql id="defaultUser">
+        select * from user
+    </sql>
+    <!--查询所有-->
+    <select id="findAll" resultType="com.allen.domain.User">
+        <include refid="defaultUser"></include>
+    </select>
+
+    <!--根据id查询用户-->
+    <select id="findById" resultType="com.allen.domain.User" parameterType="INT">
+        select * from user where id=#{id}
+    </select>
+
+    <!--根据名称模糊查询用户-->
+    <select id="findByName" resultType="com.allen.domain.User" parameterType="String">
+      select * from user where username like #{name}
+      <!--select * from user where username like '%${value}%'-->
+    </select>
+
+    <!--根据queryVo的条件查询用户-->
+    <select id="findUserByVo" resultType="com.allen.domain.User" parameterType="com.allen.domain.QueryVo">
+        select * from user where username like #{user.username}
+        <!--select * from user where username like '%${value}%'-->
+    </select>
+
+    <!--根据条件查询
+    <select id="findUserByCondition" resultType="com.allen.domain.User" parameterType="com.allen.domain.User">
+        select * from user where 1=1
+        <if test="username != null">
+            and username = #{username}
+        </if>
+        <if test="sex != null">
+            and sex = #{sex}
+        </if>
+    </select>-->
+
+    <select id="findUserByCondition" resultType="com.allen.domain.User" parameterType="com.allen.domain.User">
+        select * from user
+        <where>
+            <if test="username != null">
+                and username = #{username}
+            </if>
+            <if test="sex != null">
+                and sex = #{sex}
+            </if>
+        </where>
+    </select>
+
+    <!--根据queryvo中的id集合实现插叙用户列表-->
+    <select id="findUserInIds" resultType="user" parameterType="queryvo">
+        <include refid="defaultUser"></include>
+        <where>
+            <if test="ids != null and ids.size()>0">
+                <foreach collection="ids" open="and id in(" close=")" item="id" separator=",">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </select>
+</mapper>
