@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67981e83-4126-4eea-89ba-80c5956def7c" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/src/main/java/com/allen/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/src/main/java/com/allen/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/src/main/java/com/allen/dao/impl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/src/main/resources/com/allen/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/src/main/resources/com/allen/dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/src/main/webapp/MATA-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/src/test/java/com/allen/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/src/test/java/com/allen/test/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/target/classes/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03_05jndi/target/classes/com/allen/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_05jndi/target/classes/com/allen/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_01datasourceAndTx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_01datasourceAndTx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_01datasourceAndTx/axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_01datasourceAndTx/axis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_01datasourceAndTx/target/test-classes/com/allen/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_01datasourceAndTx/target/test-classes/com/allen/test/MybatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_02dynamicSQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_02dynamicSQL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_02dynamicSQL/target/classes/com/allen/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_02dynamicSQL/target/classes/com/allen/domain/QueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_02dynamicSQL/target/classes/com/allen/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_01lazy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_01lazy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_01lazy/axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_01lazy/axis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_01lazy/src/test/java/com/allen/test/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_01lazy/src/test/java/com/allen/test/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_01lazy/target/test-classes/com/allen/test/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_01lazy/target/test-classes/com/allen/test/AccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_02cache/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_02cache/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_02cache/axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_02cache/axis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_02cache/src/test/java/com/allen/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_02cache/src/test/java/com/allen/test/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_02cache/target/test-classes/com/allen/test/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_02cache/target/test-classes/com/allen/test/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04_04annoOne2Many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day04_04annoOne2Many/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,9 +32,10 @@
     <session id="496198996">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -48,14 +54,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
           <entry key="properties" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -63,12 +69,44 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/allen/test/AnnotationCRUDTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="383">
               <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="965">
+              <caret line="36" column="11" lean-forward="true" selection-end-line="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="1440">
               <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,10 +173,10 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -253,6 +291,14 @@
               <item name="day04_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="day04_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day04_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -293,8 +339,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,6 +480,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584081412368</updated>
       <workItem from="1584081413906" duration="3504000" />
+      <workItem from="1584111356197" duration="48000" />
     </task>
     <servers />
   </component>
@@ -458,18 +505,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3504000" />
+    <option name="totallyTimeSpent" value="3552000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="设计器" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.3250346" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3243968" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -561,10 +607,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/allen/test/MybatisAnnoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/allen/test/AnnotationCRUDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="965">
+          <caret line="36" column="11" lean-forward="true" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#284#285#0" expanded="true" />
@@ -588,33 +658,6 @@
             <element signature="e#910#911#0" expanded="true" />
             <element signature="e#950#951#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/allen/test/MybatisAnnoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/allen/test/AnnotationCRUDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
         </state>
       </provider>
     </entry>

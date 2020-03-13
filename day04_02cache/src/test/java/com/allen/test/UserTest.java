@@ -56,7 +56,7 @@ public class UserTest {
 //        sqlSession.close();
 //        //再次获取sqlsession对象
 //        sqlSession = factory.openSession();
-
+//
         sqlSession.clearCache();//此方法也可以清空缓存
         userDao = sqlSession.getMapper(UserDao.class);
         User user2 = userDao.findById(41);
