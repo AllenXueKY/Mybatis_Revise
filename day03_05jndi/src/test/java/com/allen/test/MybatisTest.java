@@ -1,4 +1,4 @@
-package java.com.allen.test;
+package com.allen.test;
 
 import com.allen.dao.UserDao;
 import com.allen.domain.User;
@@ -55,76 +55,6 @@ public class MybatisTest {
         for (User user : users) {
             System.out.println(user);
         }
-    }
-
-    /**
-     * 测试保存操作
-     */
-    @Test
-    public void testSave() throws IOException {
-        User user = new User();
-        user.setUsername("autocommit");
-        user.setAddress("陕西省西安市");
-        user.setSex("男");
-        user.setBirthday(new Date());
-        System.out.println("保存操作之前："+user);
-        //5、执行保存方法
-        userDao.saveUser(user);
-        System.out.println("保存操作之后："+user);
-    }
-
-    /**
-     * 测试更新操作
-     */
-    @Test
-    public void testUpdate() throws IOException {
-        User user = new User();
-        user.setId(50);
-        user.setUsername("mybatis Update user");
-        user.setAddress("陕西省西安市");
-        user.setSex("女");
-        user.setBirthday(new Date());
-
-        userDao.updateUser(user);
-    }
-
-    /**
-     * 测试删除操作
-     */
-    @Test
-    public void testDelete() throws IOException {
-
-        userDao.deleteUser(48);
-    }
-
-    /**
-     * 测试根据id查询操作
-     */
-    @Test
-    public void testFindOne() throws IOException {
-        User user = userDao.findById(50);
-        System.out.println(user);
-    }
-
-    /**
-     * 测试根据名字模糊查询操作
-     */
-    @Test
-    public void testFindByName() throws IOException {
-        List<User> users = userDao.findByName("%王%");
-        // List<User> users = userDao.findByName("王");
-        for (User user : users) {
-            System.out.println(user);
-        }
-    }
-
-    /**
-     * 测试查询总记录条数操作
-     */
-    @Test
-    public void testFindTotal() throws IOException {
-        int total = userDao.findTotal();
-        System.out.println(total);
     }
 
 
